@@ -1,0 +1,31 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../Lab7/project_1/project_1.srcs/sources_1/imports/spike/Desktop/CMPE 140/Lab1/Vivado Files/Assignment_1.srcs/sources_1/new/CMP_ERROR.v" \
+"../../../../../../Lab7/project_1/project_1.srcs/sources_1/imports/spike/Desktop/CMPE 140/Lab1/Vivado Files/Assignment_1.srcs/sources_1/new/CMP_GT.v" \
+"../../../../../../Lab7/project_1/project_1.srcs/sources_1/imports/spike/Desktop/CMPE 140/Lab1/Vivado Files/Assignment_1.srcs/sources_1/new/CNT.v" \
+"../../../../Assignment6.srcs/sources_1/new/HILO.v" \
+"../../../../../../Lab7/project_1/project_1.srcs/sources_1/imports/spike/Desktop/CMPE 140/Lab1/Vivado Files/Assignment_1.srcs/sources_1/new/MUL.v" \
+"../../../../../../Lab7/project_1/project_1.srcs/sources_1/imports/spike/Desktop/CMPE 140/Lab1/Vivado Files/Assignment_1.srcs/sources_1/new/MUX.v" \
+"../../../../Assignment6.srcs/sources_1/imports/CMPE 140/Lab 5/lab5_processor_design_1/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/adder.v" \
+"../../../../Assignment6.srcs/sources_1/imports/CMPE 140/Lab 5/lab5_processor_design_1/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/alu.v" \
+"../../../../Assignment6.srcs/sources_1/imports/CMPE 140/Lab 5/lab5_processor_design_1/lab5_processor_design_1/single_cycle_mips_source_initial/control_unit/auxdec.v" \
+"../../../../Assignment6.srcs/sources_1/imports/CMPE 140/Lab 5/lab5_processor_design_1/lab5_processor_design_1/single_cycle_mips_source_initial/control_unit/controlunit.v" \
+"../../../../Assignment6.srcs/sources_1/imports/CMPE 140/Lab 5/lab5_processor_design_1/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/datapath.v" \
+"../../../../Assignment6.srcs/sources_1/imports/CMPE 140/Lab 5/lab5_processor_design_1/lab5_processor_design_1/single_cycle_mips_source_initial/memory/dmem.v" \
+"../../../../Assignment6.srcs/sources_1/imports/CMPE 140/Lab 5/lab5_processor_design_1/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/dreg.v" \
+"../../../../Assignment6.srcs/sources_1/imports/CMPE 140/Lab 5/lab5_processor_design_1/lab5_processor_design_1/single_cycle_mips_source_initial/memory/imem.v" \
+"../../../../Assignment6.srcs/sources_1/imports/CMPE 140/Lab 5/lab5_processor_design_1/lab5_processor_design_1/single_cycle_mips_source_initial/control_unit/maindec.v" \
+"../../../../Assignment6.srcs/sources_1/imports/CMPE 140/Lab 5/lab5_processor_design_1/lab5_processor_design_1/single_cycle_mips_source_initial/mips/mips.v" \
+"../../../../Assignment6.srcs/sources_1/imports/CMPE 140/Lab 5/lab5_processor_design_1/lab5_processor_design_1/single_cycle_mips_source_initial/mips/mips_top.v" \
+"../../../../Assignment6.srcs/sources_1/new/multiplier.v" \
+"../../../../Assignment6.srcs/sources_1/imports/CMPE 140/Lab 5/lab5_processor_design_1/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/mux2.v" \
+"../../../../Assignment6.srcs/sources_1/imports/CMPE 140/Lab 5/lab5_processor_design_1/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/regfile.v" \
+"../../../../Assignment6.srcs/sources_1/new/shifter.v" \
+"../../../../Assignment6.srcs/sources_1/imports/CMPE 140/Lab 5/lab5_processor_design_1/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/signext.v" \
+"../../../../Assignment6.srcs/sim_1/imports/testbench/tb_mips_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
